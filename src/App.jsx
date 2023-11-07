@@ -56,7 +56,7 @@ function App() {
   if (winner) {
     status = "Winner: " + winner;
   } else {
-    status = "Next Player: " + (nextTurn ? "X" : "O");
+    status = "Player: " + (nextTurn ? "X" : "O");
   }
 
   function resetGame() {
